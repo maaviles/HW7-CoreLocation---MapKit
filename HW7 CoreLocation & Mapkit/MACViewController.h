@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+#import "MACMapAnnotations.h"
 
-@interface MACViewController : UIViewController
+@interface MACViewController : UIViewController <MKMapViewDelegate>
+
+@property (strong, nonatomic) IBOutlet MKMapView *mapView;
+@property (strong, nonatomic) IBOutlet UIButton *searchButton;
 
 @end

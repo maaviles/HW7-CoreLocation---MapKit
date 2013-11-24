@@ -21,6 +21,9 @@
 		3EF9C8CB184022B000F30152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF9C8AD184022B000F30152 /* UIKit.framework */; };
 		3EF9C8D3184022B000F30152 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EF9C8D1184022B000F30152 /* InfoPlist.strings */; };
 		3EF9C8D5184022B000F30152 /* HW7_CoreLocation___MapkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9C8D4184022B000F30152 /* HW7_CoreLocation___MapkitTests.m */; };
+		3EF9C8DF184023F900F30152 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF9C8DE184023F900F30152 /* CoreLocation.framework */; };
+		3EF9C8E11840240300F30152 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF9C8E01840240300F30152 /* MapKit.framework */; };
+		3EF9C8E41841CFF200F30152 /* MACMapAnnotations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF9C8E31841CFF200F30152 /* MACMapAnnotations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		3EF9C8D0184022B000F30152 /* HW7 CoreLocation & MapkitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HW7 CoreLocation & MapkitTests-Info.plist"; sourceTree = "<group>"; };
 		3EF9C8D2184022B000F30152 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3EF9C8D4184022B000F30152 /* HW7_CoreLocation___MapkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HW7_CoreLocation___MapkitTests.m"; sourceTree = "<group>"; };
+		3EF9C8DE184023F900F30152 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3EF9C8E01840240300F30152 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3EF9C8E21841CFF200F30152 /* MACMapAnnotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACMapAnnotations.h; sourceTree = "<group>"; };
+		3EF9C8E31841CFF200F30152 /* MACMapAnnotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACMapAnnotations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EF9C8E11840240300F30152 /* MapKit.framework in Frameworks */,
+				3EF9C8DF184023F900F30152 /* CoreLocation.framework in Frameworks */,
 				3EF9C8AC184022B000F30152 /* CoreGraphics.framework in Frameworks */,
 				3EF9C8AE184022B000F30152 /* UIKit.framework in Frameworks */,
 				3EF9C8AA184022B000F30152 /* Foundation.framework in Frameworks */,
@@ -101,6 +110,8 @@
 		3EF9C8A8184022B000F30152 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3EF9C8E01840240300F30152 /* MapKit.framework */,
+				3EF9C8DE184023F900F30152 /* CoreLocation.framework */,
 				3EF9C8A9184022B000F30152 /* Foundation.framework */,
 				3EF9C8AB184022B000F30152 /* CoreGraphics.framework */,
 				3EF9C8AD184022B000F30152 /* UIKit.framework */,
@@ -119,6 +130,8 @@
 				3EF9C8BF184022B000F30152 /* MACViewController.m */,
 				3EF9C8C1184022B000F30152 /* Images.xcassets */,
 				3EF9C8B0184022B000F30152 /* Supporting Files */,
+				3EF9C8E21841CFF200F30152 /* MACMapAnnotations.h */,
+				3EF9C8E31841CFF200F30152 /* MACMapAnnotations.m */,
 			);
 			path = "HW7 CoreLocation & Mapkit";
 			sourceTree = "<group>";
@@ -253,6 +266,7 @@
 				3EF9C8BA184022B000F30152 /* MACAppDelegate.m in Sources */,
 				3EF9C8B6184022B000F30152 /* main.m in Sources */,
 				3EF9C8C0184022B000F30152 /* MACViewController.m in Sources */,
+				3EF9C8E41841CFF200F30152 /* MACMapAnnotations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
